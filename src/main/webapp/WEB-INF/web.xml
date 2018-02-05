@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+
+    <servlet>
+        <servlet-name>DB CREATE Servlet</servlet-name>
+        <servlet-class>lv.div.jpadb.servlet.DbCreateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DB CREATE Servlet</servlet-name>
+        <url-pattern>/create/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DB CREATE Rolback Servlet</servlet-name>
+        <servlet-class>lv.div.jpadb.servlet.DbCreateRollbackServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DB CREATE Rolback Servlet</servlet-name>
+        <url-pattern>/createrollback/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DB READ Servlet</servlet-name>
+        <servlet-class>lv.div.jpadb.servlet.DbReadServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DB READ Servlet</servlet-name>
+        <url-pattern>/read/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DB UPDATE Servlet</servlet-name>
+        <servlet-class>lv.div.jpadb.servlet.DbUpdateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DB UPDATE Servlet</servlet-name>
+        <url-pattern>/update/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DB DELETE Servlet</servlet-name>
+        <servlet-class>lv.div.jpadb.servlet.DbDeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DB DELETE Servlet</servlet-name>
+        <url-pattern>/delete/*</url-pattern>
+    </servlet-mapping>
+
+</web-app>
