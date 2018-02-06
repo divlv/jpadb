@@ -1,3 +1,6 @@
+DROP TABLE IF EXISTS demo_data;
+DROP SEQUENCE IF EXISTS demo_data_id_seq;
+
 CREATE TABLE demo_data (
     id int PRIMARY KEY NOT NULL,
     name varchar (50)
@@ -16,4 +19,4 @@ insert into demo_data (name) values ('Paul');
 insert into demo_data (name) values ('George');
 insert into demo_data (name) values ('Ringo');
 
-
+GRANT ALL ON ALL TABLES IN SCHEMA public to testuser;
