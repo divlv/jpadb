@@ -1,5 +1,5 @@
 # jpadb
-## Java Persistence API database connectivity demo
+### Java Persistence API database connectivity demo
 
 "Skeleton" project for JPA-oriented database project 
 
