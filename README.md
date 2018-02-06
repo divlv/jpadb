@@ -1,7 +1,7 @@
 # jpadb
 ### Java Persistence API database connectivity demo
 
-"Skeleton" project for JPA-oriented database project 
+"Skeleton" project for JPA/JTA-oriented database project 
 
 It creates a WAR package (web project) and demonstraes main CRUD operations, implemented in separate EJBs (Enterprice Java Beans), using container managed transactions mechanism
 
