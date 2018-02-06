@@ -20,3 +20,4 @@ insert into demo_data (name) values ('George');
 insert into demo_data (name) values ('Ringo');
 
 GRANT ALL ON ALL TABLES IN SCHEMA public to testuser;
+GRANT ALL ON ALL SEQUENCES IN SCHEMA public to testuser;
